@@ -1,0 +1,16 @@
+FROM alpine:latest
+
+RUN apk add --update nodejs npm
+
+WORKDIR /app
+COPY ./ ./
+
+ARG REACT_APP_BACKEND_BASE_URL
+
+ENV REACT_APP_BACKEND_BASE_URL=$REACT_APP_BACKEND_BASE_URL
+
+RUN npm install --quiet
+
+EXPOSE 3000
+
+CMD ["npm", "start"]

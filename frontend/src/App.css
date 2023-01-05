@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.Map {
+  width: 80vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 3vmin);
+  font-weight: bold;
+  color: darkblue;
+}
+
+.Areas {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: calc(5px + 0.5vmin);
+}
+
+.North {
+  background-color: red;
+  height: 25vh;
+  width: 15vw;
+  margin: 0.1vw;
+  border-radius: 10%/5%;
+  border: white double 1vh;
+}
+
+.East {
+  background-color: green;
+  height: 25vh;
+  width: 15vw;
+  margin: 0.1vw;
+  border-radius: 10%/5%;
+  border: white double 1vh;
+}
+
+.South {
+  background-color: blue;
+  height: 25vh;
+  width: 15vw;
+  margin: 0.1vw;
+  border-radius: 10%/5%;
+  border: white double 1vh;
+}
+
+.West {
+  background-color: orange;
+  height: 25vh;
+  width: 15vw;;
+  margin: 0.1vw;
+  border-radius: 10%/5%;
+  border: white double 1vh;
+}
+
+.Central {
+  background-color: teal;
+  height: 25vh;
+  width: 15vw;
+  margin: 0.1vh;
+  border-radius: 10%/5%;
+  border: white double 1vh;
+}
