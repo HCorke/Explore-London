@@ -29,10 +29,10 @@ services:
     depends_on:
       - mongoDb
 
-  # mongo-seed-2:
-  #   build: ./backend/mongo-seed-2
-  #   depends_on:
-  #     - mongoDb
+  mongo-seed-2:
+    build: ./backend/mongo-seed-2
+    depends_on:
+      - mongoDb
   
   # mongo-seed-3:
   #   build: ./backend/mongo-seed-3
