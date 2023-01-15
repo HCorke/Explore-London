@@ -1,0 +1,16 @@
+name: Docker Build CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Docker build frontend
+      run: |
+        docker build ./frontend -t explorelondon-react-prod:latest
+    - name: docker build backend
+      run: |
+        docker build ./backend -t explorelondon-express-prod:latest
