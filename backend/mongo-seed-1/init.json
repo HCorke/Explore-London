@@ -1,8 +1,8 @@
 [
   {
-    "area": {
-      "North London": ["Barnet", "Enfield", "Haringey", "Waltham Forest"],
-      "East London": [
+    "areaName": {
+      "NorthLondon": ["Barnet", "Enfield", "Haringey", "Waltham Forest"],
+      "EastLondon": [
         "Redbridge",
         "Barking & Dagenham",
         "Havering",
@@ -14,7 +14,7 @@
         "Greenwich",
         "Bexley"
       ],
-      "South London": [
+      "SouthLondon": [
         "Bromley",
         "Croydon",
         "Sutton",
@@ -22,7 +22,7 @@
         "Kingston Upon Thames",
         "Richmond Upon Thames"
       ],
-      "West London": [
+      "WestLondon": [
         "Hammersmith & Fulham",
         "Hounslow",
         "Ealing",
@@ -30,7 +30,7 @@
         "Harrow",
         "Brent"
       ],
-      "Central London": [
+      "CentralLondon": [
         "Camden",
         "Islington",
         "City of Westminster",

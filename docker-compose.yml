@@ -2,7 +2,7 @@ version: '3'
 
 services:
   front-end-app:
-    image: explorelondon-react:latest
+    image: explore-london-react:latest
     container_name: explore-london-react
     ports:
       - "3000:3000"
@@ -33,14 +33,9 @@ services:
     build: ./backend/mongo-seed-2
     depends_on:
       - mongoDb
-  
-  # mongo-seed-3:
-  #   build: ./backend/mongo-seed-3
-  #   depends_on:
-  #     - mongoDb
 
   back-end:
-    image: explorelondonexpress:latest
+    image: explore-london-express:latest
     container_name: explore-london-express
     ports:
       - "8080:8080"

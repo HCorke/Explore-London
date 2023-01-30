@@ -1,8 +1,8 @@
 //supertest file
 import request from "supertest";
-import { server } from "../server.js";
-jest.mock("../db/database-helper");
-const dbHelper = require("../db/database-helper");
+import { server } from "../../server.js";
+jest.mock("../../db/database-helper.js");
+const dbHelper = require("../../db/database-helper.js");
 
 describe("integration test for server end points.", () => {
   afterAll(() => {
@@ -14,9 +14,9 @@ describe("integration test for server end points.", () => {
       const collectionName = "londonBoroughs";
       const returnValue = [
         {
-          borough: "Barnet",
+          boroughName: "Barnet",
           area: "North London",
-          neighbourhoods: [],
+          neighbourhoods: ["a"],
           veganRestaurants: [],
         },
       ];

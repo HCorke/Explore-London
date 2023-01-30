@@ -1,198 +1,198 @@
 [
   {
-    "borough": "Barnet",
+    "boroughName": "Barnet",
     "area": "North London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Enfield",
+    "boroughName": "Enfield",
     "area": "North London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Haringey",
+    "boroughName": "Haringey",
     "area": "North London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Waltham Forest",
+    "boroughName": "Waltham Forest",
     "area": "North London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Redbridge",
+    "boroughName": "Redbridge",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Barking & Dagenham",
+    "boroughName": "Barking & Dagenham",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Havering",
+    "boroughName": "Havering",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Hackney",
+    "boroughName": "Hackney",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "City of London",
+    "boroughName": "City of London",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Tower Hamlets",
+    "boroughName": "Tower Hamlets",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Newham",
+    "boroughName": "Newham",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Lewisham",
+    "boroughName": "Lewisham",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Greenwich",
+    "boroughName": "Greenwich",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Bexley",
+    "boroughName": "Bexley",
     "area": "East London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Bromley",
+    "boroughName": "Bromley",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Croydon",
+    "boroughName": "Croydon",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Sutton",
+    "boroughName": "Sutton",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Merton",
+    "boroughName": "Merton",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Kingston Upon Thames",
+    "boroughName": "Kingston Upon Thames",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Richmond Upon Thames",
+    "boroughName": "Richmond Upon Thames",
     "area": "South London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Hammersmith & Fulham",
+    "boroughName": "Hammersmith & Fulham",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Hounslow",
+    "boroughName": "Hounslow",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Ealing",
+    "boroughName": "Ealing",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Hillingdon",
+    "boroughName": "Hillingdon",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Harrow",
+    "boroughName": "Harrow",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Brent",
+    "boroughName": "Brent",
     "area": "West London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Camden",
+    "boroughName": "Camden",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Islington",
+    "boroughName": "Islington",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "City of Westminster",
+    "boroughName": "City of Westminster",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Kensington & Chelsea",
+    "boroughName": "Kensington & Chelsea",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Wandworth",
+    "boroughName": "Wandworth",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Lambeth",
+    "boroughName": "Lambeth",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []
   },
   {
-    "borough": "Southwark",
+    "boroughName": "Southwark",
     "area": "Central London",
     "neighbourhoods": [],
     "veganRestaurants": []

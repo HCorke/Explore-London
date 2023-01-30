@@ -3,7 +3,7 @@ import { fetchAllBoroughs } from "../api/londonBoroughsAPI";
 
 export const useLondonBoroughs = ({ setBoroughs }) => {
   useEffect(() => {
-    fetchAllBoroughs().then((boroughs) => setAreas(boroughs));
+    fetchAllBoroughs().then((boroughs) => setBoroughs(boroughs));
   }, [setBoroughs]);
 
   return;

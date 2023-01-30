@@ -2,7 +2,7 @@ version: '3'
 
 services:
   front-end-app-prod:
-    image: explorelondon-react-prod:latest
+    image: explore-london-react-prod:latest
     container_name: explore-london-prod-react
     ports:
       - "3000:3000"
@@ -17,7 +17,7 @@ services:
         - REACT_APP_BACKEND_BASE_URL=explore-london-discovery-service.explore-london.backend
 
   back-end-prod:
-    image: explorelondon-express-prod:latest
+    image: explore-london-express-prod:latest
     container_name: explore-london-prod-express
     ports:
       - "8080:8080"
