@@ -1,0 +1,55 @@
+.Areas {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: calc(5px + 0.5vmin);
+  }
+  
+  .North {
+    background-color: red;
+    height: 25vh;
+    width: 15vw;
+    margin: 0.1vw;
+    border-radius: 10%/5%;
+    border: white double 1vh;
+  }
+  
+  .East {
+    background-color: green;
+    height: 25vh;
+    width: 15vw;
+    margin: 0.1vw;
+    border-radius: 10%/5%;
+    border: white double 1vh;
+  }
+  
+  .South {
+    background-color: blue;
+    height: 25vh;
+    width: 15vw;
+    margin: 0.1vw;
+    border-radius: 10%/5%;
+    border: white double 1vh;
+  }
+  
+  .West {
+    background-color: orange;
+    height: 25vh;
+    width: 15vw;;
+    margin: 0.1vw;
+    border-radius: 10%/5%;
+    border: white double 1vh;
+  }
+  
+  .Central {
+    background-color: teal;
+    height: 25vh;
+    width: 15vw;
+    margin: 0.1vh;
+    border-radius: 10%/5%;
+    border: white double 1vh;
+  }
+  
