@@ -1,7 +1,7 @@
 import "./BoroughModal.css";
 
 export const BoroughModal = ({ setIsOpenBoroughModal, borough }) => {
-  console.log(borough.boroughId)
+
   return borough.boroughName ? (
     <div className="modal-background">
       <div className="modal-container">
@@ -14,8 +14,9 @@ export const BoroughModal = ({ setIsOpenBoroughModal, borough }) => {
           >
             X
           </div>
-          <h1 className="modal-header">Borough</h1>
+          <h1 className="modal-header">{borough.boroughName}</h1>
         </div>
+        <p id="area-name">Area: {borough.area}</p>
       </div>
     </div>
   ) : (

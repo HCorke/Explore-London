@@ -1,5 +1,6 @@
 import { useLondonBoroughs } from "../hooks/useLondonBoroughs";
 import { Borough } from "./Borough";
+import "./BoroughsPage.css";
 
 export const BoroughsPage = ({ boroughs, setBoroughs }) => {
   useLondonBoroughs({ setBoroughs });
@@ -7,9 +8,11 @@ export const BoroughsPage = ({ boroughs, setBoroughs }) => {
   return boroughs[0] ? (
     <div className="main">
       <div className="Areas">
-        <div className="North">
-          <h1>North London</h1>
-          <div id="north-boroughs">
+        <div className="area" id="North">
+          <div>
+            <h1 className="area-name">North London</h1>
+          </div>
+          <div className="boroughs">
             {boroughs
               .filter((borough) => {
                 if (borough.area === "North London") {
@@ -22,9 +25,9 @@ export const BoroughsPage = ({ boroughs, setBoroughs }) => {
               ))}
           </div>
         </div>
-        <div className="East">
-          <h1>East London</h1>
-          <div id="east-boroughs">
+        <div className="area" id="East">
+          <h1 className="area-name">East London</h1>
+          <div className="boroughs">
             {boroughs
               .filter((borough) => {
                 if (borough.area === "East London") {
@@ -37,9 +40,9 @@ export const BoroughsPage = ({ boroughs, setBoroughs }) => {
               ))}
           </div>
         </div>
-        <div className="South">
-          <h1>South London</h1>
-          <div id="south-boroughs">
+        <div className="area" id="South">
+          <h1 className="area-name">South London</h1>
+          <div className="boroughs">
             {boroughs
               .filter((borough) => {
                 if (borough.area === "South London") {
@@ -52,9 +55,9 @@ export const BoroughsPage = ({ boroughs, setBoroughs }) => {
               ))}
           </div>
         </div>
-        <div className="West">
-          <h1>West London</h1>
-          <div id="west-boroughs">
+        <div className="area" id="West">
+          <h1 className="area-name">West London</h1>
+          <div className="boroughs">
             {boroughs
               .filter((borough) => {
                 if (borough.area === "West London") {
@@ -67,9 +70,9 @@ export const BoroughsPage = ({ boroughs, setBoroughs }) => {
               ))}
           </div>
         </div>
-        <div className="Central">
-          <h1>Central London</h1>
-          <div id="central-boroughs">
+        <div className="area" id="Central">
+          <h1 className="area-name">Central London</h1>
+          <div className="boroughs">
             {boroughs
               .filter((borough) => {
                 if (borough.area === "Central London") {

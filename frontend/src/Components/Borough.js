@@ -7,7 +7,14 @@ export const Borough = ({ borough }) => {
 
   return borough.boroughName ? (
     <div>
-      <div id="borough-name">{borough.boroughName}</div>
+      <div
+        id="borough-name"
+        onClick={() => {
+          setIsOpenBoroughModal(true);
+        }}
+      >
+        {borough.boroughName}
+      </div>
 
       {isOpenBoroughModal && (
         <BoroughModal

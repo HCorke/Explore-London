@@ -1,0 +1,45 @@
+.Areas {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: calc(5px + 0.6vmin);
+}
+
+.area {
+  height: 35vh;
+  width: 18vw;
+  margin: 0.07vw;
+  border-radius: 10%/5%;
+  border: white double 0.8vh;
+}
+
+#North {
+  background-color: red;
+}
+
+#East {
+  background-color: green;
+}
+
+#South {
+  background-color: blue;
+}
+
+#West {
+  background-color: orange;
+}
+
+#Central {
+  background-color: teal;
+}
+
+.area-name {
+    margin: 25px;
+}
+
+.boroughs {
+  height: 70%;
+}
