@@ -11,7 +11,7 @@ describe("integration test for server end points.", () => {
   describe("GET collection", () => {
     it("should return a list of documents for the collection provided.", async () => {
       //mock the dbhelper getCollection function.
-      const collectionName = "londonBoroughsList";
+      const collectionName = "LondonBoroughs";
       const returnValue = [
         {
           boroughName: "Barnet",

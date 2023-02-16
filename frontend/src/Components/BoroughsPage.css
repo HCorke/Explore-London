@@ -5,13 +5,13 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: calc(5px + 0.6vmin);
+  font-size: calc(4px + 0.6vmin);
 }
 
 .area {
-  height: 35vh;
+  height: 45vh;
   width: 18vw;
-  margin: 0.07vw;
+  margin: 0.06vw;
   border-radius: 10%/5%;
   border: white double 0.8vh;
 }
@@ -36,8 +36,8 @@
   background-color: teal;
 }
 
-.area-name {
-    margin: 25px;
+.area-names {
+  margin: 15px;
 }
 
 .boroughs {

@@ -1,7 +1,6 @@
 import "./BoroughModal.css";
 
 export const BoroughModal = ({ setIsOpenBoroughModal, borough }) => {
-
   return borough.boroughName ? (
     <div className="modal-background">
       <div className="modal-container">
@@ -16,7 +15,20 @@ export const BoroughModal = ({ setIsOpenBoroughModal, borough }) => {
           </div>
           <h1 className="modal-header">{borough.boroughName}</h1>
         </div>
-        <p id="area-name">Area: {borough.area}</p>
+        <p id="area-name">
+          <h2>Area</h2>
+          {borough.area}
+        </p>
+        <div className="neighbourhoods">
+          <h2 id="neighbourhoods-label">Neighbourhoods</h2>
+          <div id="neighbourhood-names">
+            {borough.neighbourhoods.map((neighbourhood, index) => (
+              <div id="neighbourhood" key={index}>
+                {neighbourhood}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   ) : (
