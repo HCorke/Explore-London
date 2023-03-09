@@ -1,22 +1,22 @@
-# name: Docker Build CI
+name: Docker Build CI
 
-# on: [push]
+on: [push]
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
     
-#     steps:
-#     - uses: actions/checkout@v2
-#     - name: docker login
-#       env:
-#         DOCKER_USER: ${{ secrets.DOCKER_USER }}
-#         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-#       run: |
-#         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-#     - name: Docker build frontend
-#       run: |
-#         docker build ./frontend -t explore-london-react-prod:latest
-#     - name: docker build backend
-#       run: |
-#         docker build ./backend -t explore-london-express-prod:latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: docker login
+      env:
+        DOCKER_USER: ${{ secrets.DOCKER_USER }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      run: |
+        docker login -u $DOCKER_USER --password-stdin
+    - name: Docker build frontend
+      run: |
+        docker build ./frontend -t explore-london-react-prod:latest
+    - name: docker build backend
+      run: |
+        docker build ./backend -t explore-london-express-prod:latest
