@@ -4,7 +4,7 @@ COPY init.json /init.json
 CMD mongoimport \
     --host mongodb \
     --db explore-london \
-    --collection londonBoroughsList \
+    --collection restaurants \
     --type json \
     --file /init.json \
     --jsonArray

@@ -11,13 +11,50 @@ describe("integration test for server end points.", () => {
   describe("GET collection", () => {
     it("should return a list of documents for the collection provided.", async () => {
       //mock the dbhelper getCollection function.
-      const collectionName = "LondonBoroughs";
+      const collectionName = "londonBoroughsList";
       const returnValue = [
         {
           boroughName: "Barnet",
           area: "North London",
-          neighbourhoods: ["a"],
-          veganRestaurants: [],
+          neighbourhoods: [
+            "Arkley",
+            "Barnet Gate",
+            "Brent Cross",
+            "Brunswick Park",
+            "Burnt Oak",
+            "Childs Hill",
+            "Church End",
+            "Cockfosters",
+            "Colindale",
+            "Colney Hatch",
+            "Cricklewood",
+            "East Barnet",
+            "East Finchley",
+            "Edgware",
+            "Finchley Central",
+            "Friern Barnet",
+            "Golders Green",
+            "Grahame Park",
+            "The Hale",
+            "Hampstead Garden Suburb",
+            "Hendon",
+            "High Barnet",
+            "The Hyde",
+            "Mill Hill",
+            "Monken Hadley",
+            "Muswell Hill",
+            "New Barnet",
+            "New Southgate",
+            "North Finchley",
+            "Oakleigh Park",
+            "Osidge",
+            "Southgate",
+            "Temple Fortune",
+            "Totteridge",
+            "West Hendon",
+            "Whetstone",
+            "Woodside Park",
+          ],
         },
       ];
 

@@ -5,11 +5,11 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: calc(4px + 0.6vmin);
+  font-size: calc(4px + 0.7vmin);
 }
 
 .area {
-  height: 45vh;
+  height: 50vh;
   width: 18vw;
   margin: 0.06vw;
   border-radius: 10%/5%;

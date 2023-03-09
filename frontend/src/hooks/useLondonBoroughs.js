@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { fetchAllBoroughs } from "../api/LondonBoroughsAPI";
+import { fetchAllBoroughs } from "../api/LondonBoroughsListAPI";
 
 export const useLondonBoroughs = ({ setBoroughs }) => {
   useEffect(() => {

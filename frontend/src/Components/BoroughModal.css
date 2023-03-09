@@ -48,12 +48,12 @@ h2 {
 }
 
 .neighbourhoods {
- display: flex;
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #neighbourhoods-label {
-    width: 75%;
+    width: 60%;
     height: 1%;
 }
 
@@ -61,9 +61,8 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 50%;
-    min-width: 60%;
-    max-width: 65%;
+    height: 50%;
+    width: 50%;
     justify-content: center;
     border: 1px solid black;
     border-radius: 15%/20%;
